@@ -1,0 +1,64 @@
+@media screen and (max-width: 800px){
+
+    .hero{
+        height: 220px;
+        width: auto;    
+     }
+     .img-inicio-servicio{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        max-height: auto;
+    }
+    .rows{
+        display: flex;
+        flex-direction: column;
+    }
+    .fox{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        .img-fox{
+            max-width: 100%;
+            max-height: auto;
+        }
+    }
+    .quienes-somos{
+        display: grid;
+        grid-column: 1fr 1fr;
+        grid-row: 1fr;
+    }
+    .servicio {
+        display: grid;
+        grid-column: 1fr 1fr;
+        grid-row: 1fr; 
+        
+        .img-servicio{
+            max-width: 100%;
+            max-height: auto;
+        }
+    }
+    .logo-mapa{
+        max-width: 100%;
+        height: auto;
+    }
+    .servicio .col {
+        order: 1; 
+        margin-top: 0; 
+        margin-bottom: 20px;
+    }
+    .servicio .col:first-child{
+        order: 2; 
+    }
+    .n-2 .n-3 {
+        order: 1; 
+        margin-top: 0; 
+        margin-bottom: 20px; 
+    }
+    .n-2 .n-3:last-child{
+        order: 2; 
+   
+    }
+
+}
