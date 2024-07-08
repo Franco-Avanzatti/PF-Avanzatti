@@ -32,9 +32,18 @@
     }
     .info-fox{
         font-size: 28px;
-    }
+    } 
+    @keyframes scaleAnimation {
+        100% {
+          transform: scale(1.05);
+        }
+      }
+      
+      .info-fox:hover {
+        animation: scaleAnimation 1s forwards;
+      }   
 }
-.img-nosotros{
+  .img-nosotros{
     border-radius: 10px;
     height: 100%;
     width: 100%;
@@ -46,5 +55,5 @@
 }
 .logo-mapa{
     border-radius: 4rem;
-    
 }
+
