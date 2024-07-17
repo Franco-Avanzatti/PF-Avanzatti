@@ -11461,6 +11461,9 @@ h1, .h1 {
   color: gray;
 }
 
+/*=============================================
+=                   INDEX                     =
+=============================================*/
 .hero {
   height: 400px;
   width: auto;
@@ -11506,18 +11509,27 @@ h1, .h1 {
   animation: scaleAnimation 1s forwards;
 }
 
+/*=============================================
+=                   QUIENES SOMOS             =
+=============================================*/
 .img-nosotros {
   border-radius: 10px;
   height: 100%;
   width: 100%;
 }
 
+/*=============================================
+=                   SERVICIOS                 =
+=============================================*/
 .img-servicio {
   max-width: 100%;
   height: 100%;
   border: 3px ridge black;
 }
 
+/*=============================================
+=                   UBICACIÓN                 =
+=============================================*/
 .logo-mapa {
   border-radius: 4rem;
 }
@@ -11567,6 +11579,14 @@ footer .quienes-footer {
   .rows {
     display: flex;
     flex-direction: column;
+  }
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .row {
+    max-width: 100%;
+    margin-left: 0;
   }
   .fox {
     display: flex;
