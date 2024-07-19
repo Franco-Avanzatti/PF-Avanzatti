@@ -11587,6 +11587,7 @@ footer .quienes-footer {
   .row {
     max-width: 100%;
     margin-left: 0;
+    margin-right: 0;
   }
   .fox {
     display: flex;
@@ -11630,5 +11631,19 @@ footer .quienes-footer {
   }
   .n-2 .n-3:last-child {
     order: 2;
+  }
+}
+@media (max-width: 500px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .col {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .card {
+    width: 100%;
   }
 }/*# sourceMappingURL=styles.css.map */
